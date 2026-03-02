@@ -1,0 +1,85 @@
+{
+    "machine": {
+      "name": "IfThenPaint",
+      "description": "Default configuration for the IfThenPaint CNC painting machine.",      
+      "number_of_major_tools": 2,
+      "number_of_minor_tools": 4,
+      "number_of_paint_syringes": 4,
+      "origin_mode": "bottom_left",
+      "work_area": {
+        "width_mm": 400.0,
+        "height_mm": 300.0
+      },
+      "z_safe_mm": 215.0
+    },
+    "controller_profile": {
+      "name": "Default GRBL",
+      "dialect": "grbl",
+      "header_snippet": "G17 G21 G90 G94 G54",
+      "footer_snippet": ""
+    },
+    "canvas": {
+      "name": "Standard Canvas",
+      "width_mm": 300.0,
+      "height_mm": 200.0,
+      "thickness_mm": 2.0,
+      "surface_type": "canvas"
+    },
+    "paint_syringe_slots": [
+      {
+        "id": "syringe_slot_1",
+        "x_mm": 11.0,
+        "y_mm": 517.0
+      },
+      {
+        "id": "syringe_slot_2",
+        "x_mm": 0.0,
+        "y_mm": 0.0
+      },
+      {
+        "id": "syringe_slot_3",
+        "x_mm": 0.0,
+        "y_mm": 0.0
+      },
+      {
+        "id": "syringe_slot_4",
+        "x_mm": 0.0,
+        "y_mm": 0.0
+      }
+    ],
+    "major_tool_slots": [
+      {
+        "id": "major_tool_slot_1",
+        "x_mm": 0.0,
+        "y_mm": 0.0
+      },
+      {
+        "id": "major_tool_slot_2",
+        "name": "Secondary Brush Head",
+        "x_mm": 0.0,
+        "y_mm": 0.0
+      }
+    ],
+    "minor_tool_slots": [
+      {
+        "id": "minor_tool_slot_1",
+        "x_mm": 0.0,
+        "y_mm": 0.0
+      },
+      {
+        "id": "minor_tool_slot_2",
+        "x_mm": 0.0,
+        "y_mm": 0.0
+      },
+      {
+        "id": "minor_tool_slot_3",
+        "x_mm": 0.0,
+        "y_mm": 0.0
+      },
+      {
+        "id": "minor_tool_slot_4",
+        "x_mm": 0.0,
+        "y_mm": 0.0
+      }
+    ]
+  }
