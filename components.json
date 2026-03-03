@@ -1,0 +1,12 @@
+{
+    "minor_tools": [
+        {
+            "id": "flat_brush_1",
+            "tool_type": "brush",
+            "brush_type": "flat",
+            "size": 1,
+            "hair_width_mm": 3.556,
+            "hair_length_mm": 6.858
+        }
+    ]   
+}

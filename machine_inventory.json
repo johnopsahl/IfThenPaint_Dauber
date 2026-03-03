@@ -1,0 +1,33 @@
+{
+    "major_tool_inventory": [
+        {
+            "id": "syringe_dispenser",
+            "dock_number": 1
+        },
+        {
+            "id": "two_axis_head",
+            "dock_number": 2
+        }
+    ],
+    "minor_tool_inventory": [
+        {
+            "id": "brush_flat_1",
+            "dock_number": 1
+        }
+    ],
+    "syringe_inventory": [
+        {
+            "id": "paint_black",
+            "dock_number": 1
+        },
+        {
+            "id": "paint_white",
+            "dock_number": 2
+        }
+    ],
+    "canvas_inventory": [
+        {
+            "id": "paper_8x10"
+        }
+    ]
+}
