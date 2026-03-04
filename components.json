@@ -1,12 +1,49 @@
 {
-    "minor_tools": [
+    "tool_heads": [
         {
-            "id": "flat_brush_1",
+            "id": "syringe_dispenser",
+            "axes": ["b"]
+        },
+        {
+            "id": "two_axis",
+            "axes": ["b", "c"]
+        }
+    ],
+    "tools": [
+        {
+            "id": "brush_flat_1",
             "tool_type": "brush",
             "brush_type": "flat",
             "size": 1,
-            "hair_width_mm": 3.556,
-            "hair_length_mm": 6.858
+            "hair_width_mm": 3.0,
+            "hair_length_mm": 6.75
+        }
+    ],   
+    "syringes": [
+        {
+            "id": "paint_black",
+            "syringe_type": "paint",
+            "color_name": "black",
+            "color_rgb": [0, 0, 0],
+            "volume_ml": 10,
+            "ml_per_mm": 0.1724
+        },
+        {
+            "id": "paint_white",
+            "syringe_type": "paint",
+            "color_name": "white",
+            "color_rgb": [255, 255, 255],
+            "volume_ml": 10,
+            "ml_per_mm": 0.1724 
+        }
+    ],
+    "canvases": [
+        {
+            "id": "paper_8x10",
+            "canvas_type": "paper",
+            "x_width_mm": 203.2,
+            "y_height_mm": 254.0,
+            "thickness": 1.0
         }
     ]   
 }
